@@ -4,3 +4,7 @@ compatibility_date = "2026-07-09"
 [assets]
 directory = "./public"
 not_found_handling = "404-page"
+
+[[routes]]
+pattern = "blog.gotorion.fun"
+custom_domain = true
